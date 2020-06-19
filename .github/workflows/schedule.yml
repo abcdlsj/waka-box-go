@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 9bc7025496e478f439b9cd43eba989a4
+          GIST_ID: c6708cf9d70258bbf4e9dc761862a39aabd5d722
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
 
     steps:
